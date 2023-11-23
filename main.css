@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HERO section heading and subheading "Spectral Extra Bold" */
+@font-face {
+font-family: 'spectral_fontkit';
+src: url('spectral_fontkit/spectral-extrabold-webfont.eot') format('eot');
+src: url('spectral_fontkit/spectral-extrabold-webfont.eot?#iefix') format('embedded-opentype');
+src: url('spectral_fontkit/spectral-extrabold-webfont.woff') format('woff');
+src: url('spectral_fontkit/spectral-extrabold-webfont.woff2') format('woff2'),
+url('spectral_fontkit/spectral-extrabold-webfont.ttf') format('truetype'),
+url('spectral_fontkit/spectral-extrabold-webfont.svg#spectralextrabold') format('svg');
+	font-weight:normal; font-style: normal;
+}
+
+
+html {
+    font-size: 20px;
+}
+
+body {
+	background: url("images/background.jpg") white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {font-family: "spectral_fontkit" arial, sans-serif;
+	font-size: 6.3vw;
+    line-height: 6.9vw;
+	padding-left: 1em;
+	display: inline-block;
+  	max-width: 33%;
+	
+}
+
+.subheading {font-family: "spectral_fontkit" arial, sans-serif;
+	font-size: 3vw;
+    line-height: 3.3vw;
+	padding-left: 2em;
+	display: inline-block;
+	width: 40%;
+	color: #fff;
+}
+
+.pink-text {color: #ff5a87;}
+.green-text {color: #00d2b9;}
+.purple-text {color: #9655ff;}
+.yellow-text {color: #ebeb05;}
+
+.highlight-pink {
+    background: linear-gradient(120deg, #ff5a87 80%, Transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+
+}
+
+.highlight-green {
+    background: linear-gradient(120deg, #00d2b9 80%, Transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 100%;
+
+}
+
+.highlight-purple {
+    background: linear-gradient(120deg, #9655ff 80%, Transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 100%;
+
+}
+
+.highlight-yellow {
+    background: linear-gradient(120deg, #ebeb05 80%, Transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 100%;
+
+}
+@media (max-width: 100vw){
+}
+
